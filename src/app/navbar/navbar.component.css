@@ -1,0 +1,105 @@
+
+.nav-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.816);
+    padding: 1rem;
+}
+
+.nav-top a{
+    color: rgba(255, 255, 255, 0.674);
+}
+
+.nav-top a :hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.navbar-container {
+    position: relative;
+    background-color:#ffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-left:  6rem;
+    padding-right: 7rem;
+    border-bottom: solid 1px rgb(221, 217, 217);
+    align-items: center;
+}
+
+.navbar-borders{
+    text-align: center;
+    left: 7rem;
+    border: 1px rgb(215, 215, 215) solid;
+    border-radius: 40px;
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.navbar-borders:hover{
+    background-color:rgba(128, 128, 128, 0.256)
+}
+
+
+.left-buttons{
+   display: flex;
+   justify-content: left;
+    gap: 10px;
+}
+
+
+
+.contactsupport-border{
+    text-align: center;
+    border: 1px rgb(215, 215, 215) solid;
+    border-radius: 40px;
+    padding: 5px;
+    width: 8rem;
+    height: 2.5rem;
+    color: black;
+
+}
+
+.right-buttons{
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+
+.nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+}
+
+.nav li a:hover{ 
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.logo-middle img{
+   position:absolute;
+   right: 50%;
+   left: 50%;
+   width: 70px;
+   height: 68px;
+   bottom: 1px;
+   overflow: hidden;
+}
+
+.shopcart-icon{
+    background-color: rgb(255, 200, 0);
+    width: 2.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    text-align: center;
+
+}
