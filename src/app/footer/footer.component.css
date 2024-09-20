@@ -1,0 +1,141 @@
+.footer-container {
+    position: relative;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    margin-top: 10rem;
+    border-top: solid 1px rgb(221, 217, 217);
+    height: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    width: 33rem;
+   border-right: solid 1px rgb(221, 217, 217);
+   height: 15rem;
+   max-height: 20rem;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.left-side img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe input {
+    border-radius: 25px;
+    background-color: rgb(239, 234, 234);
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-left: 2rem; 
+}
+
+.footer-column {
+    margin-right: 3rem; 
+
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #848484;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #000000;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6rem;
+    border-top: solid 1px rgb(221, 217, 217);
+    background-color: #f7f7f7;
+    height: 80px;
+}
+
+.policies {
+    display: flex;
+    gap: 20px;
+}
+
+.policies a {
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+.policies a:hover {
+    color: #000;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.social-icons a:hover {
+    background-color: #2f00ff;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #777;
+}
