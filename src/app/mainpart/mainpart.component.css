@@ -300,42 +300,79 @@ li.right-buttons a:hover {
     color: rgb(0, 0, 0);
 }
 
-.container-images-relative {
-    position: relative;
-    height: 25rem;
-    border-bottom: 3px black solid;
+.container22 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(237, 237, 237, 0.395);
+    height: 30rem;
 }
 
 .container-images {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    /* background-color: bisque; */
-    max-width: fit-content;
-    height: auto;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 15px;
+    height: 360px;
+    width: 18rem; 
+    overflow: hidden;  
+   
 }
 
-.container-images img {
-    max-width: 20%;
-    object-fit: cover;
-    object-fit: contain;
+.container-images1 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 15px;
+    height: 360px;
+    width: 18rem; 
+    overflow: hidden;  
 }
 
-.product-image {
-    height: 15rem;
+.container-images1 img {
+    padding: 30px;
+    height: 28.4rem;
+    overflow: hidden;
 }
 
-.product2-image {
-    height: 15rem;
+.container-images2 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 15px;
+    height: 360px;
+    width: 18rem; 
+    overflow: hidden;  
+    
 }
 
-.product3-image {
-    height: 15.9rem;
-    z-index: -1;
-    max-height: none;
+.container-images2 img{
+    padding: 15px;
+    height: 29.4rem;
+    overflow: hidden;
 }
+
+
+.container22 h5{
+    position: absolute;
+    bottom: 2rem;
+    color: black;
+}
+
+.container22 p {
+    position: absolute;
+    bottom: 0;
+    color: black;
+}
+
+.col-md-3 img {
+    position: absolute;
+    width: 16rem;
+    padding-bottom: 10rem;
+    left: 1rem;
+}
+
 
 .shopcart-icon-border {
     background-color: rgb(255, 200, 0);
@@ -348,106 +385,25 @@ li.right-buttons a:hover {
     align-items: center;
 }
 
+
 .shopcart-icon-pos {
-    position: relative;
+    position: absolute;
     left: 13rem;
-    top: 7rem;
+    top: 16rem;
 }
 
 .shopcart-icon-pos2 {
-    position: relative;
-    left: 14.5rem;
-    top: 7rem;
+    position: absolute;
+    left: 14rem;
+    top: 16rem;
 }
 
 .shopcart-icon-pos3 {
-    position: relative;
-    left: 16.5rem;
-    top: 7rem;
-}
-
-.shopcart-icon-pos4 {
-    position: relative;
-    left: 16.5rem;
-    top: 7rem;
-}
-
-.product-name {
     position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 5rem;
-    left: 7rem;
-    font-weight: bold;
+    left: 14.5rem;
+    top: 16rem;
 }
 
-.product-price {
-    color: #333;
-    font-size: 1rem;
-    position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 2rem;
-    left: 7rem;
-}
-
-.product-name2 {
-    position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 5rem;
-    left: 22.5rem;
-    font-weight: bold;
-}
-
-.product-price2 {
-    color: #333;
-    font-size: 1rem;
-    position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 2rem;
-    left: 22.5rem;
-
-}
-
-.product-name3 {
-    position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 5rem;
-    left: 40rem;
-    font-weight: bold;
-}
-
-.product-price3 {
-    color: #333;
-    font-size: 1rem;
-    position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 2rem;
-    left: 40rem;
-}
-
-.product-name4 {
-    position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 5rem;
-    left: 59.5rem;
-    font-weight: bold;
-}
-
-.product-price4 {
-    color: #333;
-    font-size: 1rem;
-    position: absolute;
-    width: auto;
-    font-size: 1.1rem;
-    bottom: 2rem;
-    left: 59.5rem;
-}
 
 .style-aboutus {
     position: relative;
@@ -507,12 +463,19 @@ li.right-buttons a:hover {
     align-items: center;
     width: 4rem;
     height: 2rem;
-    background-color: #ffc800; 
+    background-color: rgb(255, 200, 0);
     border-radius: 50%;
     padding: 3.5px;
     color: black; 
     text-align: center;
 }
+
+.mainpart2 {
+    margin-top: 4rem;
+    margin-left: 6rem;
+    margin-right: 7rem;
+}
+
 
 .testimonials {
     position: relative;
