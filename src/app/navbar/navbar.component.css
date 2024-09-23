@@ -11,6 +11,7 @@
 
 .nav-top a{
     color: rgba(255, 255, 255, 0.674);
+    overflow: hidden;
 }
 
 .nav-top a :hover{
@@ -40,6 +41,7 @@
     padding: 5px;
     width: 5rem;
     height: 2.5rem;
+    overflow: hidden;
 }
 
 .navbar-borders:hover{
@@ -77,6 +79,7 @@
     list-style-type: none;
     text-decoration: none;
     color: gray;
+    overflow: hidden;
 }
 
 .nav li a:hover{ 
@@ -102,4 +105,9 @@
     padding: 7px;
     text-align: center;
 
+}
+
+.activelink{
+    background-color: rgb(255, 200, 0) ;
+   
 }
