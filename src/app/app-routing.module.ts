@@ -13,7 +13,7 @@ const routes: Routes = [
   {
     path: "products", component: ProductsComponent,
     children: [
-      { path: "", component: DefaultproductsComponent },
+      { path: "defaultproducts", component: DefaultproductsComponent },
       { path: "menWear", component: MenWearComponent },
       { path: "womenWear", component: WomenWearComponent },
       { path: "kidWear", component: KidWearComponent }

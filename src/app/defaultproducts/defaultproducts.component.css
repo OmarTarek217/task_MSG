@@ -1,0 +1,120 @@
+
+.mainpart {
+    margin-top: 4rem;
+    margin-left: 6rem;
+    margin-right: 7rem;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    position: relative;
+    left: 4.8rem;
+    height: 30rem;
+    width: 20rem;
+    object-fit: contain;
+
+}
+
+.container22 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(237, 237, 237, 0.395);
+    height: 30rem;
+}
+
+.container-images {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 15px;
+    height: 360px;
+    width: 18rem; 
+    overflow: hidden;  
+   
+}
+
+.container-images1 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 15px;
+    height: 360px;
+    width: 18rem; 
+    overflow: hidden;  
+}
+
+.container-images1 img {
+    padding: 30px;
+    height: 28.4rem;
+    overflow: hidden;
+}
+
+.container-images2 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 15px;
+    height: 360px;
+    width: 18rem; 
+    overflow: hidden;  
+    
+}
+
+.container-images2 img{
+    padding: 15px;
+    height: 29.4rem;
+    overflow: hidden;
+}
+
+
+.container22 h5{
+    position: absolute;
+    bottom: 2rem;
+    color: black;
+}
+
+.container22 p {
+    position: absolute;
+    bottom: 0;
+    color: black;
+}
+
+.col-md-3 img {
+    position: absolute;
+    width: 16rem;
+    padding-bottom: 10rem;
+    left: 1rem;
+}
+
+
+.shopcart-icon-border {
+    background-color: rgb(255, 200, 0);
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shopcart-icon-pos {
+    position: absolute;
+    left: 13rem;
+    top: 16rem;
+}
+
+.shopcart-icon-pos2 {
+    position: absolute;
+    left: 14rem;
+    top: 16rem;
+}
+
+.shopcart-icon-pos3 {
+    position: absolute;
+    left: 14.5rem;
+    top: 16rem;
+}

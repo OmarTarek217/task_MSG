@@ -31,12 +31,13 @@
     justify-content: space-between;
     align-items: center;
     width: 42rem;
-    padding:5px;
+    padding:50px;
     background-color: #f9f9f96f;
-    border-radius: 0.5rem;
-    border: 1px solid rgba(211, 211, 211, 0.411);
+    border-radius: 1rem;
+    border: 1px solid rgba(211, 211, 211, 0.23);
     height: 8rem;
     margin-top: 1.2rem;
+    padding-right: 20px;
 }
 
 .container {
@@ -54,11 +55,14 @@
 }
 
 .secondary h5 {
+    text-align: center;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+    
 }
 
 .secondary p {
+    text-align: center;
     font-size: 0.9rem;
     color: gray;
 }
@@ -75,7 +79,7 @@
     display: flex;
     gap: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc5b;
     border-radius: 40px;
     background-color: white;
   }
@@ -83,24 +87,28 @@
   .category-button {
     display: flex;
     align-items: center;
-    border: 1px solid #000000a2;
     border-radius: 30px;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: rgba(165, 164, 164, 0.348);
+    background-color: rgba(183, 183, 183, 0.097);
+  }
 
-  }
-  .category-button.active {
-    background-color: #fecd43;
-    border-color: #fecd43;
-    color: white;
-  }
+
+  .activelink{
+    background-color:rgb(255, 212, 0);
+    border-radius: 40px;
+    border: 1px solid black;
+ }
+ 
+
   .category-button i {
     margin-right: 10px;
     font-size: 18px;
   }
+
+
   .category-button:hover {
-    border-color: #d6d579;
+    border-color: #000000;
   }
 
   .category-container a {
