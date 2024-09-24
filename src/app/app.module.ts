@@ -6,6 +6,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MainpartComponent } from './mainpart/mainpart.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductsComponent } from './products/products.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MenWearComponent } from './men-wear/men-wear.component';
+import { WomenWearComponent } from './women-wear/women-wear.component';
+import { KidWearComponent } from './kid-wear/kid-wear.component';
+import { DefaultproductsComponent } from './defaultproducts/defaultproducts.component';
 
 @NgModule({
   declarations: [
@@ -13,11 +18,16 @@ import { ProductsComponent } from './products/products.component';
     NavbarComponent,
     MainpartComponent,
     FooterComponent,
-    ProductsComponent
+    ProductsComponent,
+    MenWearComponent,
+    WomenWearComponent,
+    KidWearComponent,
+    DefaultproductsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
