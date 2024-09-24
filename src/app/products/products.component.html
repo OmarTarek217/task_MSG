@@ -1,3 +1,61 @@
 <app-navbar></app-navbar>
+<!-- =================================================================================================== -->
+<section class="mainpart">
+    <div class="primary">
+        <div class="products">
+            <h1 class="bottom-margin">DISCOVER NOW</h1>
+            <p>Dive into the world of fashion excellence at Klothink. Our curated selection brings<br>
+                together the latest trends and timeless classics, offering you a diverse array of<br>
+                clothing items that resonate with your unique style.
+            </p>
+        </div>
+    </div>
 
+    <div class="secondary">
+        <div class="container1">
+            <h5>Exclusive Offers</h5>
+            <p>30% off on select items</p>
+        </div>
+        <div class="container2">
+            <h5>New Arrivals</h5>
+            <p>50+ new arrivals Daily</p>
+        </div>
+        <div class="container3">
+            <h5>Over 1,500+</h5>
+            <p>curated fashion products.</p>
+        </div>
+    </div>
+</section>
+<!-- =================================================================================================== -->
+<section class="mainpart">
+    <div class="main-container">
+        <div class="category-container">
+            <a aria-current="page" routerLink="." routerLinkActive="activelink">
+                <div class="category-button active">
+                    <span>ALL</span>
+                </div>
+            </a>
+            <a aria-current="page" routerLink="menWear" routerLinkActive="activelink">
+                <div class="category-button">
+                    <i class="fas fa-tshirt"></i>
+                    <span>MEN'S WEAR</span>
+                </div>
+            </a>
+            <a aria-current="page" routerLink="womenWear" routerLinkActive="activelink">
+                <div class="category-button">
+                    <i class="fas fa-female"></i>
+                    <span>WOMEN'S WEAR</span>
+                </div>
+            </a>
+            <a aria-current="page" routerLink="kidWear" routerLinkActive="activelink">
+                <div class="category-button">
+                    <i class="fas fa-child"></i>
+                    <span>KID'S WEAR</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<router-outlet></router-outlet>
+<!-- =================================================================================================== -->
 <app-footer></app-footer>

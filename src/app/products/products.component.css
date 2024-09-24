@@ -1,0 +1,113 @@
+.mainpart {
+    margin: 4rem 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.primary {
+    width:max-content;
+    position: relative;
+}
+
+.products {
+    position: relative;
+}
+
+.products::after {
+    content: "PRODUCTS";
+    position: absolute;
+    font-size: 20px;
+    color: gray;
+    left: 21rem;
+    top: 0px;
+}
+.bottom-margin {
+    margin-bottom: 2rem;
+}
+
+.secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 42rem;
+    padding:5px;
+    background-color: #f9f9f96f;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(211, 211, 211, 0.411);
+    height: 8rem;
+    margin-top: 1.2rem;
+}
+
+.container {
+    padding-left: 15px;
+}  
+
+.container2 {
+    border-left: 1px solid black;
+    padding-left: 15px;  
+} 
+
+.container3 {
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+
+.secondary h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.secondary p {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .category-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: white;
+  }
+  
+  .category-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000a2;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgba(165, 164, 164, 0.348);
+
+  }
+  .category-button.active {
+    background-color: #fecd43;
+    border-color: #fecd43;
+    color: white;
+  }
+  .category-button i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .category-button:hover {
+    border-color: #d6d579;
+  }
+
+  .category-container a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.category-container a:hover {
+    text-decoration: none; 
+}
