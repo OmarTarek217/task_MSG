@@ -13,6 +13,7 @@ const routes: Routes = [
   {
     path: "products", component: ProductsComponent,
     children: [
+      { path: "", redirectTo: "defaultproducts", pathMatch: "full" },
       { path: "defaultproducts", component: DefaultproductsComponent },
       { path: "menWear", component: MenWearComponent },
       { path: "womenWear", component: WomenWearComponent },
