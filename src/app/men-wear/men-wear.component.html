@@ -1,4 +1,6 @@
 <!-- =================================================================================================== -->
+<input type="text" class="w-50 form-control mx-auto my-4" [(ngModel)]="searchTerm" placeholder="Search by brand...">
+
 <section class="mainpart">
     <h4>Casual Collection</h4>
     <p>Discover our versatile men's casual wear collection, where comfort meets contemporary fashion.</p>
@@ -8,7 +10,19 @@
     <div class="container-images">
 
         <owl-carousel-o [options]="customOptions">
+
+            <ng-template *ngFor="let i of products|search:searchTerm" carouselSlide>
+                <img [src]="x" alt="{{i.name}}">
+                <h3>{{ i.brand | lowercase }}</h3>
+                <p><strong>Name:</strong> {{ i.name }}</p>
+                <p><strong>Price:</strong> ${{ i.price }}</p>
+                <p><strong>Quantity:</strong> {{ i.quantity }}</p>
+                <p><strong>Discount:</strong> {{ i.discount }}%</p>
+                <p><strong>Status:</strong> {{ i.status }}</p>
+            </ng-template>
+
             <ng-template carouselSlide>
+
 
                 <div class="image-manage">
                     <img src="assets/image-Photoroom (9).png" alt="">

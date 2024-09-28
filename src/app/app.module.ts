@@ -14,15 +14,23 @@ import { MenWearComponent } from './men-wear/men-wear.component';
 import { WomenWearComponent } from './women-wear/women-wear.component';
 import { KidWearComponent } from './kid-wear/kid-wear.component';
 import { DefaultproductsComponent } from './defaultproducts/defaultproducts.component';
+import { FormsModule } from '@angular/forms';
+import { SearchPipe } from './search.pipe';
 
 // Define your routes here
 const routes: Routes = [
   { path: '', component: DefaultproductsComponent }, 
-  { path: 'men-wear', component: MenWearComponent },
-  { path: 'women-wear', component: WomenWearComponent },
-  { path: 'kid-wear', component: KidWearComponent },
-  { path: 'products', component: ProductsComponent }
+  {
+    path: 'products', 
+    component: ProductsComponent, 
+    children: [
+      { path: 'men-wear', component: MenWearComponent },
+      { path: 'women-wear', component: WomenWearComponent },
+      { path: 'kid-wear', component: KidWearComponent }
+    ]
+  },
 ];
+
 
 @NgModule({
   declarations: [
@@ -35,6 +43,8 @@ const routes: Routes = [
     WomenWearComponent,
     KidWearComponent,
     DefaultproductsComponent,
+    SearchPipe,
+
   ],
   imports: [
     BrowserModule,
@@ -42,7 +52,8 @@ const routes: Routes = [
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot(routes), 
-    CarouselModule
+    CarouselModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
